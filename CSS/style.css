@@ -1,0 +1,179 @@
+.header {
+    position: relative;
+    width: 1600px;
+    height: 80px;
+    background: #f3ff3f;
+}
+
+.logo {
+    flex:content;
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    top: 15px;   
+}
+
+.title {
+    display: flex;
+    margin-inline: 8rem;
+    font-weight: bold;
+    padding-top: 30px;
+    font-size: 20px;
+    font-family:cursive;
+}
+
+.container {
+    width: 1600px;
+    height: 550px;
+    background: #ffdf3f;   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;   
+}
+
+.text {
+    color: #0A3871;
+    font-size: 20px; 
+    padding: 10px;    
+}
+
+.text .mensaje{
+    padding: 10rem;
+    background: #BEEC2E;
+    border-radius: 15px;
+}
+
+.aclaracion{
+    font-weight: bold;
+}
+
+.botones{
+    padding: 1rem;
+    margin-top: 30px;
+}
+
+.botones .encriptar{
+    padding: 10px 80px;
+    font-weight: bold;
+    border-radius: 10px;
+    background: #BEEC2E;
+    border: 1px solid #0A3871;
+}
+
+.botones .desencriptar{
+    padding: 10px 80px;
+    font-weight: bold;
+    border-radius: 10px;
+    background: #BEEC2E;
+    border: 1px solid #0A3871;
+ }
+
+ .text-result{
+    background-image: url("../img/diamod.png"), url("../img/Muñeco.png");
+    background-repeat: no-repeat;
+
+        
+ }
+
+ .result {
+position: absolute;
+width: 400px;
+height: 500px;
+left: 600px;
+top: 80px;
+
+}
+
+.result .text-result {
+     padding: 170px;
+     border: 2px solid #0A3871;
+     border-radius: 15px;
+     background-color: #BEEC2E;
+     font-family: 'Inter';
+     color: #343A40;
+     font-weight: 700;
+        
+}
+
+.copiar {
+    margin-top: 8px;
+    padding: 10px 80px;
+    font-weight: bold;
+    border-radius: 10px;
+    background: #BEEC2E;
+    border: 1px solid #0A3871;
+    margin-inline: 35%;
+}
+
+.rodapie {
+    background: #BEEC2E;
+    padding: 30px;
+    text-align: center;
+}
+
+@media screen and (max-width: 580px){
+    body{
+        background-color: #ffdf3f;
+        
+     }
+    main{
+        display:inline;   
+    }
+
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+      
+    }
+
+    .result  {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 20px;
+        padding: 10px;
+        gap: 32px;
+        position: absolute;
+        width: 488px;
+        height: 100px;
+        left: 0;
+        top: 580px;  
+    }
+
+    
+    
+    .copiar {
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+        width: 40px;
+        height: 40px;
+
+        /* Dark blue/dark-blue-300 */
+
+        border: 1px solid #0A3871;
+        border-radius: 10px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .rodapie{
+        display:inline-flex;
+        flex-direction:row;
+        align-items:baseline;
+        gap: 8px;
+        width: 100%;
+        height: 10px;
+        margin-top: 465px;
+    }
+
+}
+
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="preconectar" href="https://fonts.googleapis.com">
+    <link rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+       <img src="../img/Logo-1.png" alt="logo">          
+    </div>
+    <div class="title">
+        <h1>Encriptador de Texto</h1>
+     </div>
+  </header>
+    <main class="container">
+        <section class="text">
+                <input type="mensaje" id="input-text" placeholder="Ingrese texto aqui" class="mensaje" data-form-input>
+        </section>
+        <section class="aclaracion">
+                <label>❕ Solo letras minúsculas sin acentos y números</label>
+        </section>        
+        <section class="botones" data-form-btn>
+                <button id="encriptar" class="encriptar">Encriptar</button>
+                <button id="desencriptar" class="desencriptar">Desencriptar</button>
+        </section>        
+        <section class="result" data-form-result>
+            <textarea name="mensaje" id="mensaje"
+            placeholder="¡Ningún mensaje encontrado!" 
+            class="text-result"></textarea>
+                <button class="copiar">Copiar</button>
+        </section>
+    </main>
+    <footer>
+        <section class="rodapie">
+           <p class="copy">&copy Copyright AJB - 2022</p>
+        </section>
+        
+    </footer>
+    <script src="JS/index.js"></script>
+</body>
+</html>
