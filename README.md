@@ -24,6 +24,8 @@ me complicaba con el codigo JS y por guiarme para terminar.
 
 El proyecto aun falta de acomodar y refactorizar el codigo, aun esta en construccion
 
+Para acceder al proyecto, agregar al final del vinculo: Menu/index.html
+
 que falta:
 + que vuelva a aparecer la imagen una vez que desaparece el texto en el segundo
 recuadro
